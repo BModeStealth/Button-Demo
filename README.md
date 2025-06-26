@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Button Demo
+
+A Next.js demo showcasing a button component system with design tokens and interactive controls.
+
+## Design
+
+View the design in Figma: [Button Demo Design](https://www.figma.com/design/phWJk6An6V4tHMpVcJyLwi/Button-Demo?node-id=0-1&p=f&t=XDwYlY1BtJ6g0tT2-0)
+
+## Features
+
+- **Design Token System**: Color, spacing, typography, and border radius tokens
+- **Button Variants**: Primary, Positive, Destructive, and Secondary button types
+- **Interactive Controls**: Real-time button customization with type, disabled state, icons, and title
+- **SVG Icons**: 5 custom icons (Home, Settings, Arrow-Right, Edit, Search) with proper sizing
+- **Responsive Layout**: Clean interface with sidebar controls and main demo area
 
 ## Getting Started
 
@@ -16,13 +30,12 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/Button.tsx` - Main button component with design token integration
+- `src/tokens.json` - Design system tokens (colors, spacing, typography)
+- `src/Icon=*.svg` - SVG icons with currentColor support
+- `src/pages/index.tsx` - Interactive demo page with controls
 
 ## Learn More
 
